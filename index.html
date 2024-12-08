@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>SleshChat</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+    <!-- strat chat  -->
+    <section class="chat-section">
+        <div class="chat-container ">
+            <!-- start sidebar -->
+            <aside class="chat-sidebar">
+                <a href="#" class="chat-sidebar-logo">
+                    <i class="ri-chat-1-fill"></i>
+                </a>
+                <ul class="chat-sidebar-menu">
+                    <li class="active">
+                        <a href="index.html" data-title="Chats">
+                            <i class="ri-chat-3-fill"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-title="Contact">
+                            <i class="ri-contacts-fill"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-title="Folder">
+                            <i class="ri-folder-5-fill"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-title="Setting">
+                            <i class="ri-settings-3-fill"></i>
+                        </a>
+                    </li>
+                    <li class="chat-sidebar-profile active">
+                        <button type="button" class="chat-sidebar-profile-toggle">
+                            <img src="https://i.pinimg.com/736x/10/f4/6d/10f46d3bf574ce739b8b4d457b819695.jpg" alt="profile-logo" height="40" width="40">
+                        </button>
+                        <ul class="chat-sidebar-profile-dropdown">
+                            <li>
+                                <a href="profile.html">
+                                    <i class="ri-user-line"></i>
+                                    Profile
+                                </a>
+                            </li>
+                            <li>
+                                <a href="login.html">
+                                    <i class="ri-logout-box-line"></i>
+                                    Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+
+            <!-- start: Content -->
+            <div class="chat-content">
+                <!-- start: Content side -->
+                <div class="content-sidebar">
+                    <div class="content-sidebar-title">Chats <i class="ri-chat-3-fill"></i> </div>
+                    <form action="/submit" method="GET" class="content-sidebar-form">
+                        <input type="search" placeholder="search..." id="content-sidebar-input">
+                        <button type="submit" class="content-sidebar-sumbit">
+                            <i class="ri-search-2-line"></i>
+                        </button>
+                    </form>
+                    <div class="content-massage">
+                        <ul class="content-massage-list">
+
+                            <li class="content-massage-title"><span>Recently</span></li>
+
+                            <li class="active">
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <span class="content-massage-notification">
+                                            <i class="ri-notification-2-fill"></i>
+                                        </span>
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <!-- <span class="content-massage-notification">
+                                            1
+                                        </span> -->
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <!-- <span class="content-massage-notification">
+                                            1
+                                        </span> -->
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <!-- <span class="content-massage-notification">
+                                            1
+                                        </span> -->
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <!-- <span class="content-massage-notification">
+                                            1
+                                        </span> -->
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <!-- <span class="content-massage-notification">
+                                            1
+                                        </span> -->
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <!-- <span class="content-massage-notification">
+                                            1
+                                        </span> -->
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <span class="content-massage-notification">
+                                            1
+                                        </span>
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="content-massage-list">
+
+                            <li class="content-massage-title"><span>Recently</span></li>
+
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last messages
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <span class="content-massage-notification">
+                                            <i class="ri-notification-2-fill"></i>
+                                        </span>
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <!-- <span class="content-massage-notification">
+                                            1
+                                        </span> -->
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <!-- <span class="content-massage-notification">
+                                            1
+                                        </span> -->
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <!-- <span class="content-massage-notification">
+                                            1
+                                        </span> -->
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <!-- <span class="content-massage-notification">
+                                            1
+                                        </span> -->
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <!-- <span class="content-massage-notification">
+                                            1
+                                        </span> -->
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <!-- <span class="content-massage-notification">
+                                            1
+                                        </span> -->
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <img id="content-massage-image" src="https://i.pinimg.com/736x/81/e2/62/81e262e45261d38ccbebfaaac8f19b81.jpg">
+                                    <span class="content-massage-info">
+                                        <span class="content-massage-name">
+                                            Name
+                                        </span>
+                                        <span class="content-massage-text">
+                                            Last message
+                                        </span>
+                                    </span>
+                                    <span class="content-massage-more">
+                                        <span class="content-massage-notification">
+                                            1
+                                        </span>
+                                        <span class="content-massage-time">
+                                            00:00
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end: Content side -->
+
+                <!-- start: Conversation -->
+                <div class="conversation">
+                    <div class="conversation-top">
+                        <button class="conversation-back">
+                            <i class="ri-arrow-left-fill"></i>
+                        </button>
+                        <div class="conversation-user">
+                            <img id="conversation-user-image" src="https://i.pinimg.com/736x/30/39/b4/3039b4b81f500141e7b4ea1d87951081.jpg">
+                            <div>
+                                <div class="conversation-user-name">Name</div>
+                                <div class="conversation-user-status online">
+                                    <span>
+                                        online
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conversation-btns">
+                            <button type="button">
+                                <i class="ri-phone-fill"></i>
+                            </button>
+                            <button type="button"> 
+                                <i class="ri-video-on-fill"></i>
+                            </button>
+                            <button type="button">
+                                <i class="ri-information-2-fill"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="conversation-main">
+                        <ul class="conversation-wrapper">
+                            <div class="conversation-divider">
+                                <span>
+                                    Today
+                                </span>
+                            </div>
+                            <li class="conversation-item me">
+                                <div class="conversation-item-side">
+                                    <img id="conversation-item-img" src="https://i.pinimg.com/736x/10/f4/6d/10f46d3bf574ce739b8b4d457b819695.jpg" alt="Logo me">
+                                </div>
+                                <div class="conversation-item-content">
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <span>    
+                                                    <p>
+                                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure corporis quas similique fugiat illum ut, repellat sed.
+                                                    </p>    
+                                                    <div class="conversation-item-time">00:00</div>
+                                                </span>
+                                            </div>
+                                            <div class="conversation-item-dropdown">
+                                                <button class="conversation-item-dropdown-toggle">
+                                                    <i class="ri-more-2-fill"></i>
+                                                </button>
+                                                <ul class="conversation-item-dropdown-list">
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ri-reply-fill"></i>
+                                                            Forward
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-edit">
+                                                            <i class="ri-quill-pen-ai-fill" ></i>
+                                                            Сhange
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-copy">
+                                                            <i class="ri-file-copy-2-line"></i>
+                                                            Copy
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            
+                                                            <i class="ri-delete-bin-7-fill"></i>
+                                                            Delete
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <span>    
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sint? Maiores vero ipsam quae inventore!
+                                                    </p>
+                                                    <div class="conversation-item-time">00:00</div>
+                                                </span>
+                                            </div>
+                                            <div class="conversation-item-dropdown">
+                                                <button class="conversation-item-dropdown-toggle">
+                                                    <i class="ri-more-2-fill"></i>
+                                                </button>
+                                                <ul class="conversation-item-dropdown-list">
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ri-reply-fill"></i>
+                                                            Forward
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-edit">
+                                                            <i class="ri-quill-pen-ai-fill" ></i>
+                                                            Сhange
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-copy">
+                                                            <i class="ri-file-copy-2-line"></i>
+                                                            Copy
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ri-delete-bin-7-fill"></i>
+                                                            Delete
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <span>    
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo soluta sequi nesciunt non obcaecati, ipsam perspiciatis deleniti. Placeat, delectus. Tempore, quidem vitae!
+                                                    </p>
+                                                    <div class="conversation-item-time">00:00</div>
+                                                </span>
+                                            </div>
+                                            <div class="conversation-item-dropdown">
+                                                <button class="conversation-item-dropdown-toggle">
+                                                    <i class="ri-more-2-fill"></i>
+                                                </button>
+                                                <ul class="conversation-item-dropdown-list">
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ri-reply-fill"></i>
+                                                            Forward
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-edit">
+                                                            <i class="ri-quill-pen-ai-fill" ></i>
+                                                            Сhange
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-copy">
+                                                            <i class="ri-file-copy-2-line"></i>
+                                                            Copy
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ri-delete-bin-7-fill"></i>
+                                                            Delete
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="conversation-item">
+                                <div class="conversation-item-side">
+                                    <img id="conversation-item-img" src="https://i.pinimg.com/736x/10/f4/6d/10f46d3bf574ce739b8b4d457b819695.jpg" alt="Logo me">
+                                </div>
+                                <div class="conversation-item-content">
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <span>    
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis non ducimus dolores?
+                                                    </p>
+                                                    <div class="conversation-item-time">00:00</div>
+                                                </span>
+                                            </div>
+                                            <div class="conversation-item-dropdown">
+                                                <button class="conversation-item-dropdown-toggle">
+                                                    <i class="ri-more-2-fill"></i>
+                                                </button>
+                                                <ul class="conversation-item-dropdown-list">
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ri-reply-fill"></i>
+                                                            Forward
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-edit">
+                                                            <i class="ri-quill-pen-ai-fill" ></i>
+                                                            Сhange
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-copy">
+                                                            <i class="ri-file-copy-2-line"></i>
+                                                            Copy
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ri-delete-bin-7-fill"></i>
+                                                            Delete
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <span>    
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet.
+                                                    </p>
+                                                    <div class="conversation-item-time">00:00</div>
+                                                </span>
+                                            </div>
+                                            <div class="conversation-item-dropdown">
+                                                <button class="conversation-item-dropdown-toggle">
+                                                    <i class="ri-more-2-fill"></i>
+                                                </button>
+                                                <ul class="conversation-item-dropdown-list">
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ri-reply-fill"></i>
+                                                            Forward
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-edit">
+                                                            <i class="ri-quill-pen-ai-fill" ></i>
+                                                            Сhange
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-copy">
+                                                            <i class="ri-file-copy-2-line"></i>
+                                                            Copy
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ri-delete-bin-7-fill"></i>
+                                                            Delete
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="conversation-item me">
+                                <div class="conversation-item-side">
+                                    <img id="conversation-item-img" src="https://i.pinimg.com/736x/10/f4/6d/10f46d3bf574ce739b8b4d457b819695.jpg" alt="Logo me">
+                                </div>
+                                <div class="conversation-item-content">
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <span>    
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet.    
+                                                    </p>    
+                                                    <div class="conversation-item-time">00:00</div>
+                                                </span>
+                                            </div>
+                                            <div class="conversation-item-dropdown">
+                                                <button class="conversation-item-dropdown-toggle">
+                                                    <i class="ri-more-2-fill"></i>
+                                                </button>
+                                                <ul class="conversation-item-dropdown-list">
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ri-reply-fill"></i>
+                                                            Forward
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-edit">
+                                                            <i class="ri-quill-pen-ai-fill"></i>
+                                                            Сhange
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-copy">
+                                                            <i class="ri-file-copy-2-line"></i>
+                                                            Copy
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ri-delete-bin-7-fill"></i>
+                                                            Delete
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="conversation-item-wrapper">
+                                        <div class="conversation-item-box">
+                                            <div class="conversation-item-text">
+                                                <span>    
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse fugit praesentium cupiditate!
+                                                    </p>
+                                                    <div class="conversation-item-time">00:00</div>
+                                                </span>
+                                            </div>
+                                            <div class="conversation-item-dropdown">
+                                                <button class="conversation-item-dropdown-toggle">
+                                                    <i class="ri-more-2-fill"></i>
+                                                </button>
+                                                <ul class="conversation-item-dropdown-list">
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ri-reply-fill"></i>
+                                                            Forward
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-edit">
+                                                            <i class="ri-quill-pen-ai-fill" ></i>
+                                                            Сhange
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="conversation-item-dropdown-copy">
+                                                            <i class="ri-file-copy-2-line"></i>
+                                                            Copy
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ri-delete-bin-7-fill"></i>
+                                                            Delete
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+
+                        </ul>
+
+                        <div id="file-upload-notification" style="color: red; display: none;"></div>
+                        <ul id="file-list"></ul>
+                    </div>
+                    <div class="conversation-form">
+
+                        <button type="button" class="conversation-form-btn conversation-from-sticker">
+                            <i class="ri-emoji-sticker-line"></i>
+                        </button>
+
+                        <div class="sticker-panel active" style="display: none;">
+                            <div class="sticker" data-sticker="😊">😊</div>
+                            <div class="sticker" data-sticker="😂">😂</div>
+                            <div class="sticker" data-sticker="😍">😍</div>
+                            <!-- ост стикеры -->
+                        </div>
+
+                        <div class="conversation-form-group">
+
+                            <textarea class="conversation-form-input" rows="1" placeholder="Type here... "></textarea>
+                            
+                            <button type="button" class="conversation-form-btn conversation-form-record">
+                                <i class="ri-mic-line"></i>
+                            </button>
+
+                            <div class="conversation-form-file active">
+                                <button type="button" class="conversation-form-btn conversation-form-file-list">
+                                    <i class="ri-attachment-2"></i>
+                                </button>
+                                <ul class="conversation-form-file-list-dropdown">
+                                    <li>
+                                        <a href="#" class="conversation-form-file-list-dropdown-galeria">
+                                            <i class="ri-image-add-fill"></i>
+                                            Galeria
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="conversation-form-file-list-dropdown-file">
+                                            <i class="ri-file-add-fill"></i>
+                                            File
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <button type="button" class="conversation-form-btn conversation-form-sumbit">
+                            <i class="ri-send-plane-fill"></i>
+                        </button>
+                        
+                    </div>
+                </div>
+                <!-- end: Conversation -->  
+            </div>
+            <!-- end: Content -->
+
+        </div>
+    </section>
+
+
+    <!-- end chat  -->
+
+    <script src="script.js"></script>
+</body>
+</html>
